@@ -1,55 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PortfólioHUB - Carlos Eduardo</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortfolioHUB | Carlos Carvalho</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones via Font Awesome para os links sociais -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-  <header>
-    <h1>PortfólioHUB</h1>
-    <p>Projetos acadêmicos e pessoais com versionamento em GitHub</p>
-  </header>
+    <!-- Cabeçalho / Navegação -->
+    <header class="navbar">
+        <div class="logo">Portfolio<span>HUB</span></div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
-    <section>
-      <h2>Sobre mim</h2>
-      <p>
-        Meu nome é Carlos Eduardo Sarkis Carvalho, sou estudante de Ciência da Computação
-        no UNICEUB. Este portfólio foi criado para organizar meus projetos acadêmicos,
-        pessoais e minha evolução na área de tecnologia.
-      </p>
+    <!-- Seção de Apresentação -->
+    <section id="sobre" class="hero-section">
+        <div class="hero-content">
+            <h1>Olá, eu sou o <span class="highlight">Carlos Carvalho</span></h1>
+            <p>Seja bem-vindo ao PortfolioHUB. Minha plataforma centralizada de projetos digitais acadêmicos e profissionais.</p>
+            <!-- Seu Link do GitHub Ajustado Aqui -->
+            <a href="https://github.com/CarlosCarvalho-Hub" target="_blank" class="btn-github">
+                <i class="fab fa-github"></i> Ver meu GitHub
+            </a>
+        </div>
     </section>
 
-    <section>
-      <h2>Projetos Acadêmicos</h2>
-      <p>
-        Nesta seção serão apresentados projetos desenvolvidos durante a faculdade,
-        atividades práticas e trabalhos acadêmicos.
-      </p>
+    <!-- Seção de Projetos -->
+    <section id="projetos" class="projects-section">
+        <h2>Meus <span>Projetos</span></h2>
+        <div class="projects-grid">
+            
+            <!-- Projeto 1 -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Calculadora MARIE.js</h3>
+                    <p>Calculadora desenvolvida em assembly MARIE que realiza operações de multiplicação e divisão de forma eficiente.</p>
+                    <a href="https://github.com/CarlosCarvalho-Hub" target="_blank" class="project-link">Ver Código <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>E-commerce Tech</h3>
+                    <p>Interface responsiva focada na venda de hardware e componentes voltados para computadores de alto desempenho.</p>
+                    <a href="https://github.com/CarlosCarvalho-Hub" target="_blank" class="project-link">Ver Código <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Landing Page Acadêmica</h3>
+                    <p>Estrutura estática moderna desenvolvida para aplicar conceitos sólidos de estilização e organização web.</p>
+                    <a href="https://github.com/CarlosCarvalho-Hub" target="_blank" class="project-link">Ver Código <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+        </div>
     </section>
 
-    <section>
-      <h2>Projetos Pessoais</h2>
-      <p>
-        Nesta seção serão apresentados projetos criados por iniciativa própria,
-        estudos de programação e experimentos com tecnologia.
-      </p>
+    <!-- Seção de Tecnologias (Baseado no seu sumário da imagem) -->
+    <section id="tecnologias" class="tech-section">
+        <h2>Tecnologias <span>Utilizadas</span></h2>
+        <div class="tech-grid">
+            <div class="tech-item"><i class="fab fa-html5"></i> HTML</div>
+            <div class="tech-item"><i class="fab fa-css3-alt"></i> CSS</div>
+            <div class="tech-item"><i class="fab fa-github"></i> GitHub</div>
+            <div class="tech-item"><i class="fas fa-code-branch"></i> MARIE Assembly</div>
+        </div>
     </section>
 
-    <section>
-      <h2>Contato</h2>
-      <p>GitHub: CarlosCarvalho-Hub</p>
-      <p>LinkedIn: in/carlos-eduardo-sarkis-carvalho-a3ba39402</p>
-      <p>E-mail: cdsarkiscarvalho@gmail.com</p>
-    </section>
-  </main>
+    <!-- Seção de Contato -->
+    <section id="contato" class="contact-section">
+        <h2>Entre em <span>Contato</span></h2>
+        <p>Gostou do meu portfólio? Você pode me encontrar nas redes abaixo ou me enviar uma mensagem direta.</p>
+        
+        <div class="contact-container">
+            <!-- Dados de contato claros e atualizados -->
+            <div class="social-links">
+                <a href="https://github.com/CarlosCarvalho-Hub" target="_blank" class="social-icon">
+                    <i class="fab fa-github"></i> GitHub: CarlosCarvalho-Hub
+                </a>
+                <a href="mailto:carlos.carvalho@sempreceub.com" class="social-icon">
+                    <i class="fas fa-envelope"></i> E-mail: carlos.carvalho@sempreceub.com
+                </a>
+            </div>
 
-  <footer>
-    <p>&copy; 2026 - Carlos Eduardo Sarkis Carvalho</p>
-  </footer>
+            <!-- Formulário de Envio de Mensagem -->
+            <form class="contact-form" action="https://formspree.io/f/SEU_ID_AQUI" method="POST">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu E-mail" required>
+                <textarea name="message" placeholder="Sua Mensagem" rows="5" required></textarea>
+                <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 PortfolioHUB. Desenvolvido para o desafio PortfolioHUB + IA Gemini por Carlos Carvalho.</p>
+    </footer>
 
 </body>
 </html>
